@@ -1,0 +1,4 @@
+interface:
+  display_name: "通用报销材料整理"
+  short_description: "从邮箱或本地材料收集、分类、汇总并核验差旅报销凭证"
+  default_prompt: "使用 $reimbursement-material-organizer 整理这次差旅的报销材料，并检查金额、行程和缺失票据。"

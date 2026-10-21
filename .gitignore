@@ -1,0 +1,30 @@
+# 本地系统与 Python 缓存
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+
+# 凭据与个人配置
+.env
+.env.*
+!.env.example
+profile.json
+profile.*.json
+!examples/profile.example.json
+*.pem
+*.key
+
+# 本地材料与构建产物
+materials/
+output/
+outputs/
+dist/
+*.zip
+*.sha256
+*.pdf
+*.ofd
+*.xml
+*.jpg
+*.jpeg
+*.png
+*.heic

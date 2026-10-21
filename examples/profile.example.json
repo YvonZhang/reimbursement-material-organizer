@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "profile_name": "default",
+  "claimant": {
+    "name": "示例用户",
+    "travellers": [
+      "示例用户"
+    ]
+  },
+  "organization": {
+    "name": "示例科技有限公司",
+    "invoice_title": "示例科技有限公司",
+    "tax_id": ""
+  },
+  "storage": {
+    "default_output_dir": "~/Documents/示例报销"
+  },
+  "mail": {
+    "provider": "auto",
+    "folders": []
+  },
+  "rules": {
+    "base_currency": "CNY",
+    "categories": [
+      "酒店",
+      "交通打车",
+      "公共交通",
+      "机票",
+      "火车票",
+      "其它"
+    ],
+    "custom": [],
+    "preset": "none"
+  }
+}
